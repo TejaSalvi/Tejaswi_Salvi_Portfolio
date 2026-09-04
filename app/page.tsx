@@ -76,7 +76,7 @@ export default function Home() {
 
       <section id="contact" className="contact shell"><div className="contactBox"><div><p className="kicker">04 / Contact</p><h2>Have a complex<br/><span>problem to solve?</span></h2><p>Let&apos;s build something reliable, elegant and scalable.</p></div><a className="contactButton" href="mailto:tejusalvi592@gmail.com"><Mail size={18}/> tejusalvi592@gmail.com <ArrowUpRight size={18}/></a></div></section>
 
-      <footer className="footer shell"><div className="brand">TS<span>.</span></div><div>© 2026 Tejaswi Salvi</div><div className="social"><a href="mailto:tejusalvi592@gmail.com" aria-label="Email"><Mail size={17}/></a><span className="socialPlaceholder" title="Add your LinkedIn URL from your resume">in</span><span className="socialPlaceholder" title="Add your GitHub URL from your resume"><Github size={17}/></span></div></footer>
+      <footer className="footer shell"><div className="brand">TS<span>.</span></div><div>© 2026 Tejaswi Salvi</div><div className="social"><a href="mailto:tejusalvi592@gmail.com" aria-label="Email"><Mail size={17}/></a><a href="https://www.linkedin.com/in/tejaswi-salvi-aa1b48b0/" aria-label="LinkedIn"><span className="socialPlaceholder" title="Add your LinkedIn URL from your resume">in</span></a><a href="https://github.com/TejaSalvi" aria-label="GitHub"><span className="socialPlaceholder" title="Add your GitHub URL from your resume"><Github size={17}/></span></a></div></footer>
     </main>
   );
 }
