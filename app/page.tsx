@@ -9,24 +9,25 @@ const skills = [
 ];
 
 const experience = [
-  {
+   {
     period: "2021 — 2026",
+    company: "BNP Paribas Bank",
+    role: "Senior Developer",
+    bullets: ["Designed enterprise-scale React applications using TypeScript, React Hooks and Redux Toolkit.", "Built reusable UI component libraries with Tailwind CSS and Material UI.", "Migrated legacy applications toward modern React architecture, improving maintainability by 40%.", "Integrated GraphQL and REST APIs with Java Spring Boot teams."]
+  },
+  {
+    period: "2020 — 2021",
     company: "Belgium Rail (SNCB/NMBS)",
     role: "Senior Developer",
     bullets: ["Led a team of four frontend developers.", "Designed enterprise Single Page Applications using AngularJS.", "Established coding standards and best practices.", "Improved application performance through optimization.", "Worked closely with UX designers and product owners."]
   },
   {
-    period: "2020 — 2021",
+    period: "2017 — 2020",
     company: "HDFC Bank",
     role: "Developer Team Lead",
     bullets: ["Led frontend delivery and reusable UI component development.", "Improved application performance through focused optimization.", "Partnered with product and UX stakeholders on enterprise applications."]
   },
-  {
-    period: "2017 — 2020",
-    company: "BNP Paribas Bank",
-    role: "Senior Developer",
-    bullets: ["Designed enterprise-scale React applications using TypeScript, React Hooks and Redux Toolkit.", "Built reusable UI component libraries with Tailwind CSS and Material UI.", "Migrated legacy applications toward modern React architecture, improving maintainability by 40%.", "Integrated GraphQL and REST APIs with Java Spring Boot teams."]
-  },
+
   {
     period: "2016 — 2017",
     company: "IDFC Bank",
@@ -40,7 +41,7 @@ export default function Home() {
   return (
     <main>
       <nav className="nav shell">
-        <a href="#top" className="brand">TS<span>.</span></a>
+        <a href="#top" className="brand">Tejaswi Salvi<span>.</span></a>
         <div className={`navlinks ${open ? "show" : ""}`}>
           {[["Work", "#work"], ["Experience", "#experience"], ["Skills", "#skills"], ["Contact", "#contact"]].map(([label, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>)}
         </div>
