@@ -38,6 +38,7 @@ const experience = [
 
 export default function Home() {
   const [open, setOpen] = useState(false);
+  console.log('AI review test');
   return (
     <main>
       <nav className="nav shell">
@@ -55,9 +56,9 @@ export default function Home() {
         <p className="lede">10+ years delivering enterprise-grade web applications for banking and financial services — from frontend architecture to cloud-native delivery.</p>
         <div className="heroActions">
           <a className="button primary" href="#work">Explore my work <ArrowUpRight size={17}/></a>
-          <a className="button ghost" href="/Tejaswi-Salvi-Resume.pdf" download><Download size={16}/> Resume</a>
+          <a className="button ghost" href="/Tejaswi_Salvi_Resume.pdf" download><Download size={16}/> Resume</a>
         </div>
-        <div className="heroMeta"><span><MapPin size={14}/> Belgium</span><span>React · TypeScript · Next.js</span></div>
+        <div className="heroMeta"><span><MapPin size={14}/> France | EU (Remote)</span><span>React · TypeScript · Next.js · JAVA</span></div>
       </section>
 
       <section className="marquee" aria-label="Technology stack"><div className="marqueeInner">{skills.slice(0,12).map((s) => <span key={s}>{s}</span>)}</div></section>
