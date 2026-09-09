@@ -38,7 +38,7 @@ const experience = [
 
 export default function Home() {
   const [open, setOpen] = useState(false);
-  console.log('AI review test');
+  console.log('AI review test 2');
   return (
     <main>
       <nav className="nav shell">
